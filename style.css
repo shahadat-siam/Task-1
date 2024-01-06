@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background : url('images/banner/banner1.png');
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.head{
+    margin-left: 50%;
+    text-align: right;
+     padding: 0 120px;
+}
+.head h1{
+    font-size: 40px;
+    font-weight: 700;
+    color: #b30707;
+    padding-bottom: 20px;
+}
+.head p{
+    padding: 15px 0;
+    color: #394046;
+}
+.head .btn{
+    background-image: linear-gradient(to left, #4d0707,#b30707);
+    border: none;
+    padding: 15px 20px;
+    border-radius: 5px;
+    color: antiquewhite;
+    font-weight: 700;
+     
+}
+
+.body{
+    margin: 80px 160px;
+}
+.body1{
+    display: flex;
+    align-items: center;
+}
+.content img{
+    width: 300px;
+}
+  .content-text{
+    padding-left: 150px;
+}
+.content-text h2{
+    font-size: 29px;
+    color: #b30707;
+    padding:15px 0 ;
+}
+.content-text p{
+    padding: 10px 0;
+    color: #394046;
+}
+.oltag li{
+    padding: 7px 0;
+     color: green;
+}
+.oltag li a{
+    text-decoration: none;
+    color: #394046;
+    font-size: 18px;
+}
+.plan{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 800;
+    color: #394046;
+    padding-top: 50px;
+}
+.fourplan{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 40px;
+}
+.plan-item{
+   text-align: center;
+}
+.plan-item p{
+    color: #394046;
+    font-size: 20px;
+}
+.img-class{
+    padding-top: 80px;
+}
+.image{
+    width: 100%;
+    background-image: url("images/watch.png");
+    position: relative;
+}
+.position{
+    display: inline ;
+    position:absolute ;
+    right: 50%;
+     
+    padding: 60px 0;
+}
+.position h1{
+    font-size: 30px;
+    color: aliceblue;
+    padding-bottom: 20px;
+}
+.laltu{
+    background-image: linear-gradient(to left, #4d0707,#b30707);
+    border: none;
+    padding: 15px 30px;
+    border-radius: 5px;
+    color: antiquewhite;
+    font-weight: 700;
+}
+.foot{
+    background-color: #2d3338;
+    bottom: 0;
+    right: 0;
+     
+}
+.justify{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 120px 130px;
+}
+.footer-div h2{
+    color: aliceblue;
+    padding-bottom: 30px;
+}
+.footer-div  p{
+    color: rgb(144, 151, 156);
+    width: 50%;
+}
+.img{
+    padding-top: 30px ;
+     
+}
+.img img{
+    padding: 0 10px;
+    width:  40px;
+}
+ 
+#email{
+    padding: 14px 20px;
+    width: 200px;
+    background: transparent;
+    border: 1px solid #c5c5b3;
+    border-radius: 7px;
+}
+.laltus{
+    background: #375fcc ;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 7px;
+    color: antiquewhite;
+    margin-top: 20px;
+    font-weight: 700;  
+}
